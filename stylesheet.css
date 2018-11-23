@@ -1,0 +1,62 @@
+/*
+For Eve Muted:
+pink: #F26A87
+gray: #D7D8DB
+green: #C2D7C1
+gold: #D8A204
+tan: BE7964
+
+For Eve Bright:
+red: #D8465E
+pink: #F26A87
+gold: #D8A204
+orange gold: #D98B00
+Tan: #BE7964
+
+For Eve Colorful:
+Red: #D73A53
+White: #D7D8DB
+Yellow: #D8A204
+Gold: #D98B00
+Tan: #BE7964
+
+
+*/
+
+/* Using Bright for now */
+body {
+    background: #D8465E;
+    font-family: 'Noto Sans', sans-serif;
+    color: #D7D8DB;
+}
+
+h1 {
+    padding: 20px 200px 0px 200px;
+    line-height: 1.6;
+    font-size: 50px;
+    display: inline;
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+}
+
+a {
+    color: #D7D8DB;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 50px;
+    width: 85%;
+    margin: auto;
+    padding-top: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}

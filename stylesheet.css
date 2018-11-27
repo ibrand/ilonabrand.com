@@ -24,10 +24,26 @@ Tan: #BE7964
 */
 
 /* Using Bright for now */
+html, body {
+    height: 100%;
+}
+
 body {
-    background: #D8465E;
     font-family: 'Noto Sans', sans-serif;
     color: #D7D8DB;
+    margin: 0;
+}
+
+body .intro {
+    background: #D8465E;
+}
+
+body .engineer {
+    background: #D98B00;
+}
+
+body .artist {
+    background: #F26A87;
 }
 
 h1 {
@@ -60,3 +76,33 @@ ul {
     margin-left: 0;
     padding-left: 0;
 }
+
+.banner {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+  
+.text {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+  /**
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    contenteditable attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that are clearfixed.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+   .text:before,
+   .text:after {
+       content: " "; /* 1 */
+       display: table; /* 2 */
+   }
+   
+   .text:after {
+       clear: both;
+   }

@@ -35,15 +35,31 @@ body {
 }
 
 body .intro {
-    background: #D8465E;
+    /* background: #D8465E; */
+    background: #D7D8DB;
+    color: #565656;
+}
+
+.intro a {
+    color: #565656;
+}
+
+.intro .engineer-link {
+    color: #D98B00;
 }
 
 body .engineer {
     background: #D98B00;
 }
 
+.intro .artist-link {
+    /* color: #F26A87; */
+    color: #D8465E;
+}
+
 body .artist {
-    background: #F26A87;
+    /* background: #F26A87; */
+    background: #D8465E;
 }
 
 h1 {

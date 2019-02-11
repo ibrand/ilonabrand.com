@@ -87,6 +87,10 @@ p {
     letter-spacing: 3px;
 }
 
+p:first-child {
+    padding-top: 0px;
+}
+
 ul {
     list-style: none;
     margin-left: 0;
@@ -102,6 +106,11 @@ ul {
 .text {
     vertical-align: middle;
     display: table-cell;
+    padding: 60px 0px;
+}
+
+.bio-text {
+    font-size: 40px;
 }
 
   /**
